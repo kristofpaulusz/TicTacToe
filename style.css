@@ -1,0 +1,26 @@
+header {
+  padding-bottom: 10px;
+}
+.jatekter div {
+  height: 100px;
+  width: 100px;
+  border: solid grey 2px;
+  border-radius: 10px;
+  font-size: 100px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
+.jatekter {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+}
+.tabla,
+.jatekAllapot,
+.jatekosok {
+}
+footer {
+  padding-top: 10px;
+}

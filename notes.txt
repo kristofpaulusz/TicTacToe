@@ -1,0 +1,11 @@
+1:  felület kialakítása
+2:  tic-tac-toe tároló feltöltése Osztályok segítségével
+3:  Játék megcsinálása
+    --Szabályok:
+        A játékosok egymás után jönnek
+        Ha üres nágyzetre kattint a soros játékosé lesz a négyzet
+        Ha telire nem történik semmi
+        
+        Ha három ugyanolyan van átlósan --v-- keresztben a tulajdonos nágyzetre
+        Ha nem lehet már négyzetet rakni senki sem nyert
+    --Ha lépés történt a következő játékos jön
