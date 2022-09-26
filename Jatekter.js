@@ -121,7 +121,6 @@ class Jatekter {#
         this.tablaDiv.html("Az " + nyertes + " nyert");
         this.jatekAllapotDiv.html("Vége");
     }
-
     nevBekeres() {
         this.nevBekeresDiv.html("<label for='txt' class='form-label'>X játékos:</label><input type='text' id='elso' value=''><br><label for='txt' class='form-label'>O játékos:</label><input type='text' id='masodik' value=''> <br><button id = 'btn'>ok</button>");
 
@@ -130,7 +129,6 @@ class Jatekter {#
             o = $('#masodik')[0];
         });
     }
-
 
 }
 export default Jatekter;
