@@ -39,14 +39,14 @@ class Jatekter {
       this.tablaUpdate(this.#kovetkezo);
     });
 
-    $(window).on("lepes", () => {
-      this.kor();
+    $(window).on("lepes", (event) => {
+      this.kor(event.detail);
     });
   }
-  kor() {
+  kor(id) {
     this.#kovetkezo = !this.#kovetkezo;
     let para = this.#kovetkezo;
-    this.#negyzetek[event.detail].setJatekos(para);
+    this.#negyzetek[id].setJatekos(para);
     this.tablaUpdate(para);
     this.vaneNyeres();
   }
